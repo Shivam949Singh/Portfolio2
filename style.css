@@ -1,0 +1,270 @@
+
+*{
+    font-family: 'PT Serif', serif;
+    background-color: white;
+}
+
+.navbar .container-fluid .navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    margin-left: 5vw;
+    padding: 0vw 2vw;
+    color: rgb(247, 94, 5);
+    background-color: blanchedalmond;
+}
+
+.navbar .container-fluid .collapse .navbar-nav{
+    margin-left: 20vw;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: gray;
+}
+
+.navbar .container-fluid .collapse .navbar-nav a:hover{
+    color: rgb(233, 93, 13);
+    font-size: 1.47rem;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item{
+    margin: 0 2vw;
+}
+
+.one{
+    margin-top: 10vh;
+}
+
+.one .right img{
+    height: 70vh;
+}
+
+.one{
+    display: flex;
+    gap: 5vw;
+    justify-content: space-evenly;
+}
+
+.one .left{
+    padding: 20vh 5vw;
+}
+
+.one .left p{
+    margin-top: 8vh;
+    font-size: larger;
+    justify-content: center;
+    color: gray;
+}
+
+#element{
+    color: rgb(170, 13, 187);
+}
+
+.two{
+    padding: 2vh 6vw;
+}
+
+.two h1{
+    text-align: center;
+    font-weight: 900;
+}
+
+.two .row{
+    margin: 8vh 4vw;
+}
+
+.two .row .col-6{
+    margin: 0vh 6vw;
+}
+
+.two h4{
+    color: brown;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.three{
+    padding: 5vh 8vw;
+}
+
+.three h1{
+    text-align: center;
+    margin-bottom: 5vh;
+    font-weight: 900;
+}
+
+.row {
+    margin-top: 10vh;
+}
+
+.row h4{
+    color: brown;
+    font-weight: 1000;
+    font-style: oblique;
+}
+
+.row p{
+    color: chocolate;
+    font-size: x-large;
+}
+
+.row img{
+  height: 32vh;
+  margin-top: 5vh;
+  margin-right: 3vw;
+}
+
+.row .weather{
+    height: 5vh;
+    margin-right: 1.1vw;
+}
+
+.row .spotify{
+    height: 4vh;
+    margin-right: 1.1vw;
+}
+
+.row .dice{
+    height: 3vh;
+    margin-right: 1.1vw;
+}
+
+.row .motivation{
+    height: 4vh;
+    margin-right: 1.1vw;
+}
+
+.row a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.four h1{
+    text-align: center;
+    margin: 6vh 0vw;
+    font-weight: 900;
+}
+
+.five {
+    text-align: center;
+    margin: 6vh 5vw;
+  }
+  
+  .five h1 {
+    font-weight: 900;
+    color: brown;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+  }
+  
+  .contact-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .contact-item img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .newsletter {
+    background-color: #f0f0f0;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter:hover {
+    background-color: #e0e0e0;
+  }
+
+  footer{
+   margin-left: 5vw; 
+  }
+  
+  @media (max-width: 768px) {
+
+    .navbar .container-fluid .navbar-brand {
+      font-size: 2rem;
+      margin-left: 0;
+    }
+  
+    .navbar .container-fluid .collapse .navbar-nav {
+      margin-left: 0;
+      font-size: 1.2rem;
+    }
+
+    .one {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .one .right img {
+      height: auto;
+      width: 80%;
+    }
+  
+    .one .left {
+      padding: 5vh 5vw;
+    }
+  
+    .two h1 {
+      font-size: 2rem;
+    }
+  
+    .two .row {
+      margin: 4vh 2vw;
+    }
+  
+    .two .row .col-6 {
+      margin: 2vh 2vw;
+    }
+  
+    .three h1 {
+      font-size: 2rem;
+    }
+  
+    .row {
+      margin-top: 5vh;
+    }
+  
+    .row h4 {
+      font-size: 1.5rem;
+    }
+  
+    .row p {
+      font-size: medium;
+    }
+
+    footer {
+      margin-left: 0;
+    }
+
+    .five > .contact-section{
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+
+    .five .contact-section .contact-links{
+      margin-top: 6vh;
+    }
+  }
+  
